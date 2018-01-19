@@ -1,7 +1,9 @@
-# exjn
+# exjn.js
 
+[![npm][npm-badge]][npm-url]
 [![build][travis-badge]][travis-url]
-[![coverage][coveralls-badge]][coveralls-url]
+[![codecov][codecov-badge]][codecov-url]
+[![coveralls][coveralls-badge]][coveralls-url]
 ![license][license-badge]
 
 Extract content with simple expression defined in JSON. Javascript Implementation.
@@ -127,11 +129,16 @@ var result = dictionaryExpression.extract(singleSample);
 // Be reminded that "Artis:" does not match "Artist:"
 ```
 
+[npm-badge]: 	https://img.shields.io/npm/v/exjn.svg
+[npm-url]: https://www.npmjs.com/package/exjn
 
 [travis-badge]: https://travis-ci.org/nfam/exjn.js.svg
 [travis-url]: https://travis-ci.org/nfam/exjn.js
 
-[coveralls-badge]: https://coveralls.io/repos/nfam/exjn.js/badge.svg
+[codecov-badge]: https://codecov.io/gh/nfam/exjn.js/branch/master/graphs/badge.svg
+[codecov-url]: https://codecov.io/gh/nfam/exjn.js/branch/master
+
+[coveralls-badge]: https://coveralls.io/repos/github/nfam/exjn.js/badge.svg
 [coveralls-url]: https://coveralls.io/github/nfam/exjn.js
 
 [license-badge]: https://img.shields.io/github/license/nfam/exjn.js.svg
